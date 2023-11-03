@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content = "width=device-width,initial-scale=1.0">
+        <title>
+            Phattharapong's Portfolio
+        </title>
+        <link rel = "stylesheet" href ="style.css">
+        <script src="https://kit.fontawesome.com/15a9bf1ddf.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="https://www.kmutt.ac.th/wp-content/uploads/2020/09/KMUTT_CI_Semi_Logo-normal-full-265x300.png"
+                    class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Works</a></li>
+                        <li><a href="#section">Certificates</a></li>
+                        <li><a href="#section">Contract</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>A KMUTT Student</p>
+                    <h1 id="typewriter"> 
+                        Hi, I'm <div class="bg-gradient-to-r from-blue-600 to-red-800 inline-block text-transparent bg-clip-text">Phattharapong </div><br>Duangkham From Chiangmai
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+        <!--------------  about  ------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="images/pickmutt.jpeg">
+                    </div>
+                        <div class="about-col2">
+                            <h1 class="sub-title">About me</h1>
+                            <p>Hello! My name is Phattharapong Duangkham(Ryu), a KMUTT Student, and I am interested in Big Data , 
+                                Machine Learning and Artificial Intelligence(AI) field. I also want to explore more about building website as a 
+                                front-end devoloper.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python</span><br>Data Visualization(Pandas, Numpy & Seaborn) and Training Machine Learning Model(YOLO Detection)</li>
+                                <li><span>R</span><br>Entry-level Data Analyst</li>
+                                <li><span>C</span><br><a href="https://drive.google.com/uc?export=view&id=1GkgodJ4ITlEe_3-sNlikliJ6HU8ZygGG">Competition in Second Computer Olympiad Camp</a></li>
+                                <li><span>HTML & CSS</span><br>Basic HTML & CSS for building Website</li>
+                                <li><span>IELTS</span><br><a href="https://drive.google.com/uc?export=view&id=1hfZzNFInFSzJLtm_RPQmu8Fz9Kst9KyW">Overall 6.5</a></li>
+                                <li><span>Japanese</span><br>Basic Communication</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023-2027</span><br>King Mongkut's University of Technology Thonburi
+                                <br>Computer Engineering International Program
+                                </li>
+                                <li><span>2013-2023</span><br>Varee Chiangmai School<br>Science-Technology</li>
+                                <li><span>2010-2013</span><br>Pongpikul Chiangmai School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------Portfolio------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="atk1.png">
+                        <br><br>
+                        <img src="atk2.png">
+                        <div class="layer">
+                            <h3>ATK Verification Platform for Schools and Establishments</h3>
+                            <p>A Web Application for checking the ATK result before coming to School so 
+                                teachers do not need to check the result by themselves</p>
+                            <a href="https://docs.google.com/document/d/1up92z81xFgn0GmotaxFsaKy7m_A7fhXp-1-vcL6HDyU/edit?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="bus.png">
+                        <div class="layer">
+                            <h3>A bus line detection system  for blind people using computer vision</h3>
+                            <p>A device that contains camera and speaker with a Raspberry Pi to detect and say the bus line</p>
+                            <a href="https://docs.google.com/document/d/1LSOcfUTg6iKkIfR_anI__2K9gI5klPYeDNNISqEP0zI/edit?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://scontent.fbkk22-8.fna.fbcdn.net/v/t39.30808-6/295308298_183135450828439_8463611877722451417_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn0I-lrOyAAAX90YoBo&_nc_ht=scontent.fbkk22-8.fna&oh=00_AfB_al4Q_jusxb-itcQJnSQW4utq9Zi26K9Y6RHPg6NiqA&oe=6547073C">
+                        <br><br>
+                        <img src="mac.png">
+                        <div class="layer">
+                            <h3>Mangosteen Classification Machine Using Image Processing Technique</h3>
+                            <p>The machine that classify the mangosteen grade divided into A,B,C and D grade</p>
+                            <a href="https://www.facebook.com/photo/?fbid=183135454161772&set=pcb.183135830828401"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------Certificates-------------><!-----------Contract----------->
+        <div class="section">
+            <div class="left-section">
+                <h1 class="sub-title">Certificates</h1>
+                <ul>
+                    <li><a href="https://coursera.org/share/4fd791b001cb555e6122336e2ebdfedb">Data Analytics</a></li>
+                    <li><a href="https://coursera.org/share/3b3003b41cf9e39e962c0c6da462d429">Foundation of Data Science</a></li>
+                    <li><a href="https://coursera.org/share/7fcc9fad0e9d090e3b7bba7003bfd881">Get Started with Python</a></li>
+                    <li><a href="https://coursera.org/share/69e584c9cf2e8c6d4fca88c5d4ba3ce1">Data Analysis with R Programming</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <div class="contact-right">
+                    <h1 class="sub-title">Contract Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>phtryu555@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https:/facebook.com/Phattharapong"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.canva.com/design/DAFRzSXbirM/ZmiQcj5lYkQgoUy5MGWKUw/edit?utm_content=DAFRzSXbirM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" >
+                            <i class="fa-regular fa-file"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+</html>
