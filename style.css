@@ -22,7 +22,6 @@ body{
 }
 
 nav{
-    margin-right: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
