@@ -11,7 +11,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(IMG_0697-removebg-preview\ copy.png);
+    background-image: url(images/IMG_0697-removebg-preview\ copy.png);
     background-size: 40%;
     background-position: right;
     background-repeat: no-repeat;
@@ -83,9 +83,6 @@ nav ul li a::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
-
 .about-col1{
     flex-basis: 35%;
 
@@ -103,7 +100,9 @@ nav ul li a::after{
 .sub-title{
     font-size: 60px;
     font-weight: 700;
-    color: #fff;
+    background: -webkit-linear-gradient(#22c1c3,#fdbb2d); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
 }
 .tab-title{
     display: flex;
@@ -137,7 +136,7 @@ nav ul li a::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    font-size: 14px;
+    font-size: 16px;
     color: #b54769;
 }
 
