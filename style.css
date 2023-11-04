@@ -248,11 +248,11 @@ nav ul li a::after{
     color: #fff;
     justify-content: space-between;
     align-items: stretch;
-    padding-top: 0%;
+    padding-top: 10%;
 }
 .right-section, .left-section{
     flex: 1;
-    padding: 10%;
+    padding: 12%;
 }
 .left-section ul li{
     margin: 15px;
